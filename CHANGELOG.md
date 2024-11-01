@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.1](https://github.com/skylenet/release-tests/compare/v1.0.0...1.0.1) (2024-11-01)
+
+
+### Bug Fixes
+
+* comma ([df52462](https://github.com/skylenet/release-tests/commit/df5246293965d61672288dc5606d3c362dcc347b))
+* config update ([b714b76](https://github.com/skylenet/release-tests/commit/b714b767e8cb5e1e6ae5c45b19187c729b0e4eec))
+* include component in tag ([e27216d](https://github.com/skylenet/release-tests/commit/e27216da150829325778110425b7c22c1ba97762))
+* remove v from tags ([a93a29e](https://github.com/skylenet/release-tests/commit/a93a29e061eb4db4e82682ab347b71d16ea2f2c7))
+
 ## 1.0.0 (2024-11-01)
 
 
