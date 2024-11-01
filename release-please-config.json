@@ -1,10 +1,12 @@
 {
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "simple",
+  "include-v-in-tag": false,
   "packages": {
     ".": {
       "package-name": "release-tests",
       "bump-minor-pre-major": true,
-      "bump-path-for-minor-pre-major": false,
-      "include-v-in-tag": false
+      "bump-path-for-minor-pre-major": false
     }
   }
 }
