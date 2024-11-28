@@ -5,7 +5,7 @@ on:
     branches:
       - master
     tags:
-      - '[0-9]+.[0-9]+.[0-9]+' # Semver tags
+      - '*.*.*'
 
 env:
   REGISTRY: ghcr.io
@@ -42,8 +42,9 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
-            type=ref,event=branch
             type=semver,pattern={{version}}
+            type=pep440,pattern={{version}}
+            type=ref,event=branch
 
       - name: Build and push Docker image
         uses: docker/build-push-action@48aba3b46d1b1fec4febb7c5d0c644b249a11355 # v6.10.0
