@@ -20,4 +20,8 @@ jobs:
       - name: Deploy docker images
         uses: ./.github/actions/docker-deploy
         with:
+          registry: ghcr.io
+          registry_username: ${{ github.actor }}
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
+          image_name: ${{ github.repository }}
           push: true

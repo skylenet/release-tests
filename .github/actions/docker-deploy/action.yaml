@@ -9,15 +9,15 @@ inputs:
   registry_username:
     description: 'The username to use to push the image'
     required: false
-    default: ${{ github.actor }}
+    default: ''
   registry_password:
     description: 'The password to use to push the image'
     required: false
-    default: ${{ secrets.GITHUB_TOKEN }}
+    default: ''
   image_name:
     description: 'The name of the image to push'
     required: false
-    default: ${{ github.repository }}
+    default: ''
   platforms:
     description: 'The platforms to build the image for'
     required: false
