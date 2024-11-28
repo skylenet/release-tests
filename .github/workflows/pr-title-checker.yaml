@@ -1,4 +1,4 @@
-name: "Verify PR title"
+name: pr-title-checker
 
 on:
   pull_request_target:
@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   pr_title_checker:
-    name: Validate PR title
+    name: validate
     # Skip merge-queue PRs
     if: contains(github.ref_name, 'gh-readonly-queue/main/') != true
     runs-on: ubuntu-latest
