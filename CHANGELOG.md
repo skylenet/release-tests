@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/skylenet/release-tests/compare/1.0.2...1.0.3) (2024-11-28)
+
+
+### Bug Fixes
+
+* try fix tag push ([#8](https://github.com/skylenet/release-tests/issues/8)) ([7027416](https://github.com/skylenet/release-tests/commit/70274167058b7120036d0ca5c897f0e3043bb183))
+
 ## [1.0.2](https://github.com/skylenet/release-tests/compare/1.0.1...1.0.2) (2024-11-28)
 
 
