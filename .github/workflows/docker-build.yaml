@@ -21,4 +21,5 @@ jobs:
       - name: Build docker images
         uses: ./.github/actions/docker-deploy
         with:
+          image_name: ${{ github.repository }}
           push: false
