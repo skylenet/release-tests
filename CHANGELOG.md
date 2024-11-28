@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/skylenet/release-tests/compare/1.0.1...1.0.2) (2024-11-28)
+
+
+### Bug Fixes
+
+* arm build ([#7](https://github.com/skylenet/release-tests/issues/7)) ([86a33eb](https://github.com/skylenet/release-tests/commit/86a33eb5e5babb804f440bf589df046440dde7a3))
+* tag generation on master branch ([#5](https://github.com/skylenet/release-tests/issues/5)) ([71bf364](https://github.com/skylenet/release-tests/commit/71bf364d1a69e45358beff6b73edfdd37b4b0dbb))
+
 ## [1.0.1](https://github.com/skylenet/release-tests/compare/v1.0.0...1.0.1) (2024-11-01)
 
 
