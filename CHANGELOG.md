@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.4](https://github.com/skylenet/release-tests/compare/1.0.3...1.0.4) (2024-11-29)
+
+
+### Bug Fixes
+
+* build tag error ([#12](https://github.com/skylenet/release-tests/issues/12)) ([fbda86b](https://github.com/skylenet/release-tests/commit/fbda86b3eec4d1a7adcbb6a16af8ba21ebaea8d9))
+* docker login on ci ([#13](https://github.com/skylenet/release-tests/issues/13)) ([c0f2406](https://github.com/skylenet/release-tests/commit/c0f24064325645e3391d8469822d92b8d9de90e4))
+* try fix tag and branch trigger by splitting up workflow ([#10](https://github.com/skylenet/release-tests/issues/10)) ([d45331b](https://github.com/skylenet/release-tests/commit/d45331b345c5094fed26a06cdd10afc446961e6f))
+
 ## [1.0.3](https://github.com/skylenet/release-tests/compare/1.0.2...1.0.3) (2024-11-28)
 
 
