@@ -22,6 +22,6 @@ jobs:
         with:
           registry: ghcr.io
           registry_username: ${{ github.actor }}
-          registry_password: ${{ secrets.PAT }}
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
           image_name: ${{ github.repository }}
           push: true
