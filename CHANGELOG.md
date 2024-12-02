@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.5](https://github.com/skylenet/release-tests/compare/1.0.4...1.0.5) (2024-12-02)
+
+
+### Bug Fixes
+
+* dont use PAT for docker push operations ([#16](https://github.com/skylenet/release-tests/issues/16)) ([7be83a6](https://github.com/skylenet/release-tests/commit/7be83a689ffd1a079e505bfbac72c735570e46a2))
+* use PAT to trigger other workflows due to release please ([#14](https://github.com/skylenet/release-tests/issues/14)) ([3e0fd54](https://github.com/skylenet/release-tests/commit/3e0fd54a21de31035c7247305a474216e5502e9e))
+
 ## [1.0.4](https://github.com/skylenet/release-tests/compare/1.0.3...1.0.4) (2024-11-29)
 
 
